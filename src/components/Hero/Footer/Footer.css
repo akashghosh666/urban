@@ -1,0 +1,43 @@
+.footer-container {
+  position: relative;
+}
+hr {
+  border: 1px solid var(--lightgray);
+}
+.footer-sub {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+.footer-images {
+  display: flex;
+  gap: 4rem;
+}
+.footer-images > img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.footer-logo > img {
+  width: 15rem;
+}
+.footer-blur1 {
+  width: 26rem;
+  height: 12rem;
+  bottom: 0;
+  right: 15%;
+  filter: blur(200px);
+  background-color: red;
+}
+.footer-blur2 {
+  width: 26rem;
+  height: 12rem;
+  bottom: 0;
+  left: 15%;
+  filter: blur(200px);
+  background-color: rgb(255, 115, 0);
+}
