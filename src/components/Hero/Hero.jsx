@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import React from "react";
 import Calories from "../../assets/calories.png";
 import heartlogo from "../../assets/heart.png";
-import heroImage from "../../assets/hero_image.png";
 import heroImageBack from "../../assets/hero_image_back.png";
 import Header from "./Header/Header";
 import "./Hero.css";
@@ -75,7 +74,7 @@ const Hero = () => {
           <span>108 bpm</span>
         </motion.div>
 
-        <img src={heroImage} alt="image" className="hero-image" />
+        {/* <img src="" alt="image" className="hero-image" /> */}
         <motion.img
           initial={{ right: "11rem" }}
           transition={transition}
